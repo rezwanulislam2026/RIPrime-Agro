@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RIPrime Agro Firm</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="logo">
+        <span class="logo-leaf">&#9652;</span>
+        RIPrime <span class="logo-accent">Agro</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#cattle">Cattle</a></li>
+        <li><a href="#stats">Impact</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="hero-circle c1"></div>
+      <div class="hero-circle c2"></div>
+      <div class="hero-circle c3"></div>
+    </div>
+    <div class="hero-content">
+      <span class="hero-tag">Cultivating the Future</span>
+      <h1 class="hero-title">
+        Rooted in <span class="green">Nature,</span><br />
+        Driven by <span class="green">Innovation</span>
+      </h1>
+      <p class="hero-sub">
+        RIPrime Agro Firm delivers premium agricultural products and sustainable farming solutions — from soil to shelf.
+      </p>
+      <div class="hero-cta">
+        <a href="#products" class="btn btn-primary">Explore Products</a>
+        <a href="#about" class="btn btn-outline">Our Story</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="crop-card" id="heroCard">
+        <div class="crop-icon">🌾</div>
+        <p class="crop-label">Premium Harvest</p>
+        <p class="crop-year">Season 2025</p>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee-wrapper">
+    <div class="marquee-track">
+      <span>🌱 Organic Farming</span>
+      <span>🌾 Premium Grains</span>
+      <span>🫘 Legumes & Pulses</span>
+      <span>🥬 Fresh Vegetables</span>
+      <span>🌿 Herbal Crops</span>
+      <span>🌻 Oil Seeds</span>
+      <span>🍅 Export Quality</span>
+      <span>🐄 Premium Cattle</span>
+      <span>🌱 Organic Farming</span>
+      <span>🌾 Premium Grains</span>
+      <span>🫘 Legumes & Pulses</span>
+      <span>🥬 Fresh Vegetables</span>
+      <span>🌿 Herbal Crops</span>
+      <span>🌻 Oil Seeds</span>
+      <span>🍅 Export Quality</span>
+      <span>🐄 Premium Cattle</span>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual">
+          <div class="about-img-frame">
+            <div class="about-img-inner">
+              <div class="field-art">
+                <div class="row r1"></div>
+                <div class="row r2"></div>
+                <div class="row r3"></div>
+                <div class="row r4"></div>
+                <div class="row r5"></div>
+                <div class="sun"></div>
+              </div>
+            </div>
+          </div>
+          <div class="about-badge">
+            <strong>Est. 2008</strong>
+            <span>16+ Years of Excellence</span>
+          </div>
+        </div>
+        <div class="about-text">
+          <span class="section-tag">Who We Are</span>
+          <h2 class="section-title">Growing with Purpose,<br />Harvesting with Pride</h2>
+          <p>RIPrime Agro Firm was founded on the belief that sustainable agriculture is not just a practice — it's a responsibility. For over 16 years, we have been bridging the gap between the land and the people who depend on it.</p>
+          <p>We combine modern agri-science with traditional farming wisdom to produce crops of unmatched quality, while preserving our environment for future generations.</p>
+          <ul class="about-features">
+            <li><span class="check">✓</span> 100% Chemical-Free Options</li>
+            <li><span class="check">✓</span> ISO Certified Processes</li>
+            <li><span class="check">✓</span> Direct Farm-to-Market Supply</li>
+            <li><span class="check">✓</span> Farmer Empowerment Programs</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary">Partner With Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section class="products section" id="products">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What We Grow</span>
+        <h2 class="section-title">Our Premium Products</h2>
+        <p class="section-sub">Hand-picked, quality-tested, and delivered fresh from our farms across the region.</p>
+      </div>
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="grain">Grains</button>
+        <button class="filter-btn" data-filter="veg">Vegetables</button>
+        <button class="filter-btn" data-filter="legume">Legumes</button>
+        <button class="filter-btn" data-filter="herb">Herbs</button>
+        <button class="filter-btn" data-filter="cattle">Cattle</button>
+      </div>
+      <div class="products-grid" id="productsGrid">
+
+        <div class="product-card" data-cat="grain">
+          <div class="product-img-wrap">
+            <img src="premium-rice.png" alt="Premium Rice" />
+          </div>
+          <div class="product-body">
+            <h3>Premium Rice</h3>
+            <p>Long-grain aromatic rice grown in alluvial plains with naturally rich minerals.</p>
+            <span class="product-tag">Grain</span>
+          </div>
+        </div>
+
+        <div class="product-card" data-cat="grain">
+          <div class="product-img-wrap">
+            <img src="Golden-Maize.png" alt="Golden Maize" />
+          </div>
+          <div class="product-body">
+            <h3>Golden Maize</h3>
+            <p>High-yield hybrid maize suitable for both food and industrial processing.</p>
+            <span class="product-tag">Grain</span>
+          </div>
+        </div>
+
+        <div class="product-card" data-cat="veg">
+          <div class="product-img-wrap">
+            <img src="Leafy-Greens.png" alt="Leafy Greens" />
+          </div>
+          <div class="product-body">
+            <h3>Leafy Greens</h3>
+            <p>Pesticide-monitored spinach, kale, and lettuce grown in greenhouse conditions.</p>
+            <span class="product-tag">Vegetable</span>
+          </div>
+        </div>
+
+        <div class="product-card" data-cat="veg">
+          <div class="product-img-wrap">
+            <img src="Tomatoes.png" alt="Export Tomatoes" />
+          </div>
+          <div class="product-body">
+            <h3>Export Tomatoes</h3>
+            <p>Firm, bright, and nutrient-dense tomatoes packed to international quality standards.</p>
+            <span class="product-tag">Vegetable</span>
+          </div>
+        </div>
+
+        <div class="product-card" data-cat="legume">
+          <div class="product-img-wrap">
+            <img src="Red-Lentils.png" alt="Red Lentils" />
+          </div>
+          <div class="product-body">
+            <h3>Red Lentils</h3>
+            <p>Protein-rich red lentils, sun-dried and carefully sorted for export and retail.</p>
+            <span class="product-tag">Legume</span>
+          </div>
+        </div>
+
+        <div class="product-card" data-cat="legume">
+          <div class="product-img-wrap">
+            <img src="Chickpeas.png" alt="Chickpeas" />
+          </div>
+          <div class="product-body">
+            <h3>Chickpeas</h3>
+            <p>Plump, organic chickpeas farmed using zero-waste water management systems.</p>
+            <span class="product-tag">Legume</span>
+          </div>
+        </div>
+
+        <div class="product-card" data-cat="herb">
+          <div class="product-img-wrap">
+            <img src="Fresh-Coriander.png" alt="Fresh Coriander" />
+          </div>
+          <div class="product-body">
+            <h3>Fresh Coriander</h3>
+            <p>Aromatic, tender coriander bunches harvested daily for freshness guarantee.</p>
+            <span class="product-tag">Herb</span>
+          </div>
+        </div>
+
+        <div class="product-card" data-cat="herb">
+          <div class="product-img-wrap">
+            <img src="Turmeric-Root.png" alt="Turmeric Root" />
+          </div>
+          <div class="product-body">
+            <h3>Turmeric Root</h3>
+            <p>High-curcumin turmeric roots dried and processed under hygienic conditions.</p>
+            <span class="product-tag">Herb</span>
+          </div>
+        </div>
+
+        <div class="product-card" data-cat="cattle">
+          <div class="product-img-wrap">
+            <img src="Desi-Breed-Cows.png" alt="Desi Breed Cows" />
+          </div>
+          <div class="product-body">
+            <h3>Desi Breed Cows</h3>
+            <p>Indigenous breeds raised on natural pasture for premium dairy and meat production.</p>
+            <span class="product-tag">Cattle</span>
+          </div>
+        </div>
+
+        <div class="product-card" data-cat="cattle">
+          <div class="product-img-wrap">
+            <img src="Dairy-Cattle.png" alt="Dairy Cattle" />
+          </div>
+          <div class="product-body">
+            <h3>Dairy Cattle</h3>
+            <p>High-yield dairy cows producing fresh, pure milk for local and commercial markets.</p>
+            <span class="product-tag">Cattle</span>
+          </div>
+        </div>
+
+        <div class="product-card" data-cat="cattle">
+          <div class="product-img-wrap">
+            <img src="Bull-for-Breeding.png" alt="Bull for Breeding" />
+          </div>
+          <div class="product-body">
+            <h3>Bull for Breeding</h3>
+            <p>Strong, healthy bulls selected through our certified breeding programs for sale.</p>
+            <span class="product-tag">Cattle</span>
+          </div>
+        </div>
+
+        <div class="product-card" data-cat="cattle">
+          <div class="product-img-wrap">
+            <img src="Fattened-Cattle.png" alt="Fattened Cattle" />
+          </div>
+          <div class="product-body">
+            <h3>Fattened Cattle</h3>
+            <p>Grain-fed fattened cattle available for Qurbani season and commercial buyers.</p>
+            <span class="product-tag">Cattle</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services section" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What We Offer</span>
+        <h2 class="section-title">Our Services</h2>
+        <p class="section-sub">End-to-end agricultural solutions designed for farmers, businesses, and communities.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">🚜</div>
+          <h3>Contract Farming</h3>
+          <p>We partner with local farmers, providing seeds, training, and guaranteed buyback for a secure livelihood.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🔬</div>
+          <h3>Soil Analysis</h3>
+          <p>Advanced lab-based soil testing to help farmers maximize yield and reduce input costs efficiently.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">📦</div>
+          <h3>Agro Export</h3>
+          <p>International-grade packaging and logistics for export of premium produce across global markets.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">💧</div>
+          <h3>Irrigation Consulting</h3>
+          <p>Drip and sprinkler system design tailored to crop type, terrain, and water availability.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🌐</div>
+          <h3>Agri-Tech Support</h3>
+          <p>Digital tools including crop monitoring apps, weather alerts, and farm management dashboards.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">👨‍🌾</div>
+          <h3>Farmer Training</h3>
+          <p>Workshops and field demos on sustainable techniques, pest control, and organic methods.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATTLE GALLERY -->
+  <section class="cattle section" id="cattle">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Our Livestock</span>
+        <h2 class="section-title">Our Cattle Farm</h2>
+        <p class="section-sub">Healthy, well-nourished cattle raised on open pastures with the highest standards of animal care.</p>
+      </div>
+      <div class="cattle-grid">
+
+        <div class="cattle-card">
+          <div class="cattle-img-wrap">
+            <img src="Desi-Breed-Cows.png" alt="Desi Breed Cows" />
+          </div>
+          <div class="cattle-info">
+            <h3>Desi Breed Cows</h3>
+            <p>Indigenous breeds raised on natural pasture for premium dairy production.</p>
+          </div>
+        </div>
+
+        <div class="cattle-card">
+          <div class="cattle-img-wrap">
+            <img src="Dairy-Cattle.png" alt="Dairy Cattle" />
+          </div>
+          <div class="cattle-info">
+            <h3>Dairy Cattle</h3>
+            <p>High-yield dairy cattle producing fresh, pure milk for local and commercial supply.</p>
+          </div>
+        </div>
+
+        <div class="cattle-card">
+          <div class="cattle-img-wrap">
+            <img src="Bull-for-Breeding.png" alt="Bull for Breeding" />
+          </div>
+          <div class="cattle-info">
+            <h3>Bull for Breeding</h3>
+            <p>Strong, certified bulls for selective breeding programs to improve herd quality.</p>
+          </div>
+        </div>
+
+        <div class="cattle-card">
+          <div class="cattle-img-wrap">
+            <img src="Fattened-Cattle.png" alt="Fattened Cattle" />
+          </div>
+          <div class="cattle-info">
+            <h3>Fattened Cattle</h3>
+            <p>Grain-fed fattened cattle available for Qurbani season and commercial buyers.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats-section" id="stats">
+    <div class="container">
+      <div class="section-header light">
+        <span class="section-tag light-tag">Our Impact</span>
+        <h2 class="section-title white">Numbers That Speak</h2>
+      </div>
+      <div class="stats-grid">
+        <div class="stat-item">
+          <span class="stat-num" data-target="5200">0</span>
+          <span class="stat-suffix">+</span>
+          <p>Acres Under Cultivation</p>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num" data-target="3400">0</span>
+          <span class="stat-suffix">+</span>
+          <p>Farmer Partnerships</p>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num" data-target="18">0</span>
+          <span class="stat-suffix"></span>
+          <p>Countries Exported To</p>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num" data-target="16">0</span>
+          <span class="stat-suffix">+</span>
+          <p>Years of Experience</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials section" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Voices</span>
+        <h2 class="section-title">What People Say</h2>
+      </div>
+      <div class="testi-slider">
+        <div class="testi-track" id="testiTrack">
+          <div class="testi-card">
+            <p>"RIPrime transformed our farming cooperative. The soil analysis and contract farming program gave us the confidence and income we needed to grow."</p>
+            <div class="testi-author">
+              <div class="author-avatar">MH</div>
+              <div>
+                <strong>Mohammed Hasan</strong>
+                <span>Cooperative Farmer, Rajshahi</span>
+              </div>
+            </div>
+          </div>
+          <div class="testi-card">
+            <p>"Their export-grade produce meets every quality benchmark we need. Consistent, clean, and always on time. RIPrime is our most trusted agricultural supplier."</p>
+            <div class="testi-author">
+              <div class="author-avatar">SR</div>
+              <div>
+                <strong>Sunita Rao</strong>
+                <span>Procurement Head, FreshLink Asia</span>
+              </div>
+            </div>
+          </div>
+          <div class="testi-card">
+            <p>"The farmer training workshops changed how our entire village approaches agriculture. Yields are up by 40% and we are finally farming sustainably."</p>
+            <div class="testi-author">
+              <div class="author-avatar">AK</div>
+              <div>
+                <strong>Abir Karim</strong>
+                <span>Village Agricultural Lead, Mymensingh</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testi-dots">
+          <button class="dot active" data-idx="0"></button>
+          <button class="dot" data-idx="1"></button>
+          <button class="dot" data-idx="2"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <span class="section-tag">Get In Touch</span>
+          <h2 class="section-title">Let's Grow Together</h2>
+          <p>Whether you are a farmer, a buyer, or an investor — we are ready to build something meaningful together.</p>
+          <ul class="contact-details">
+            <li>📍 RIPrime Agro Firm, Farmgate Road, Dhaka, Bangladesh</li>
+            <li>📞 +880 1700-000000</li>
+            <li>✉️ info@riprimeagro.com</li>
+            <li>🕐 Mon – Sat: 8:00 AM – 6:00 PM</li>
+          </ul>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <input type="text" id="name" name="name" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" name="email" placeholder="Email Address" required />
+          </div>
+          <div class="form-group">
+            <select id="interest" name="interest">
+              <option value="">I am interested in...</option>
+              <option>Buying Products</option>
+              <option>Contract Farming</option>
+              <option>Export Partnership</option>
+              <option>Farmer Training</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <textarea id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary full-width">Send Message 🌱</button>
+          <p class="form-status" id="formStatus"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo">
+            <span class="logo-leaf">&#9652;</span>
+            RIPrime <span class="logo-accent">Agro</span>
+          </div>
+          <p>Cultivating sustainable futures through modern agriculture and community empowerment.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#services">Services</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Products</h4>
+          <ul>
+            <li><a href="#">Premium Rice</a></li>
+            <li><a href="#">Maize & Grains</a></li>
+            <li><a href="#">Vegetables</a></li>
+            <li><a href="#">Legumes & Herbs</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Follow Us</h4>
+          <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">YouTube</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 RIPrime Agro Firm. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
